@@ -1,0 +1,103 @@
+
+.ContactBar-Container{
+	z-index: 50;
+	top:0;
+	position: fixed;
+	display:flex;
+	justify-content: space-around;
+	width:98.65%;
+	background-color: black;
+	color:  white;
+}
+
+.Title-Container{
+	display:flex;flex-direction:row;
+	width: 100%;
+}
+
+
+.TitleDiv{
+	width:100%;
+	padding: 250px 0px 25px 0px ;
+	background-image: linear-gradient(to bottom right, #5A5A5A, #000000, #5A5A5A);
+}
+
+.ChristopherBennett{
+	font-family: Georgia;
+	color:white;
+	text-align: center;
+	width:100%;height:300px;
+}
+
+
+.flex-container{
+	display:flex;flex-direction:row;
+	justify-content: space-between;
+	width:100%;height:700px;
+	font-family: "Georgia";
+}
+.flex-container button{
+	transition: 0.5s;
+}
+.flex-container button:hover{
+	background-color: #5A5A5A;
+}
+.flex-container button:active{
+	transition: 0s;
+	background-color: #00008B;
+}
+
+.LeftDiv{
+	width:30%;
+	background-color: #5A5A5A;
+	text-align:center;
+}
+
+.MiddleDiv{
+	width:40%;
+	background-color: #41424C;
+	text-align:center;
+}
+.MiddleDiv button{
+	width:100%;
+	transform: translate(0px, -17px);
+	background-color: #41424C;
+}
+.MiddleDiv div{
+	transform: translate(0px, -33px);
+}
+.HomeProject{
+	display: none;
+	width:100%;height:15%;
+	padding:0px;margin:0px
+	z-index: 1;
+	background-image: linear-gradient(to bottom right, #41424C, #000000, #41424C);
+	color: #5A5A5A;
+	text-align: left;
+}
+.UniProjectButton{
+	display: none;
+	width:100%;height:30%;
+	padding: 33px 0px 0px 0px;
+	transform: translate(0px, 0px);
+	z-index: 1;
+	text-align: center;
+}
+.UniProject{
+	display: none;
+	width:100%;height:10%;
+	padding: 10px 0px 50px 0px;
+	transform: translate(0px, 0px);
+	background-image: linear-gradient(to bottom right, #41424C, #00008B, #41424C);
+	z-index: 1;
+	text-align: center;
+}
+
+.RightDiv{
+	width:30%;
+	background-color: #5A5A5A;
+	text-align: center;
+}
+
+
+
