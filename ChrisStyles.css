@@ -20,6 +20,8 @@
 }
 
 .TitleDiv{
+    display:inherit;
+    justify-content: center;
 	width:100%;
 	padding: 250px 0px 25px 0px ;
 	background-image: linear-gradient(to bottom right, #5A5A5A, #000000, #5A5A5A);
